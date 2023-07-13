@@ -197,7 +197,7 @@ body.dark-theme {
 .slider {
   position: relative;
   width: 100%;
-  height: 1000px;
+  height: 75rem;
   overflow: hidden;
 }
 
@@ -625,6 +625,10 @@ body.dark-theme {
 @media (max-width: 991px) {
   html {
     font-size: 55%;
+  }
+
+  .slider {
+    height: 100rem;
   }
 
   header {
