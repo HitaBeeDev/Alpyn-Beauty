@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
 
 :root {
-  --primary-color: #424874;
+  --color1: #424874;
   --color2: #a6b1e1;
   --color3: #dcd6f7;
   --color4: #f4eeff;
@@ -64,14 +64,14 @@ body.dark-theme {
   --color4: #4f4557;
   --color3: #827683;
   --color2: #f4eee0;
-  --primary-color: #f0f5f9;
+  --color1: #f0f5f9;
 }
 
 .heading {
   text-align: center;
   text-transform: uppercase;
   font-size: 3rem;
-  color: var(--primary-color);
+  color: var(--color1);
   padding: 1rem;
   font-weight: bolder;
 }
@@ -83,7 +83,7 @@ body.dark-theme {
   border: 0.2rem solid var(--color2);
   font-weight: bolder;
   font-size: 1.3rem;
-  color: var(--primary-color);
+  color: var(--color1);
   cursor: pointer;
   background: var(--color5);
   padding: 0.8rem 1rem;
@@ -122,12 +122,12 @@ body.dark-theme {
 
 .header__logo {
   font-size: 2.5rem;
-  color: var(--primary-color);
+  color: var(--color1);
 }
 
 .navbar__link {
   font-size: 1.7rem;
-  color: var(--primary-color);
+  color: var(--color1);
   margin: 0 1rem;
 }
 
@@ -137,7 +137,7 @@ body.dark-theme {
 
 .icons__link {
   font-size: 2.5rem;
-  color: var(--primary-color);
+  color: var(--color1);
   margin-left: 1.5rem;
 }
 
@@ -230,19 +230,19 @@ body.dark-theme {
 }
 
 .slide__content-subtitle {
-  color: var(--primary-color);
+  color: var(--color1);
   font-size: 1.6rem;
 }
 
 .slide__content-title {
   font-size: 4rem;
-  color: var(--primary-color);
+  color: var(--color1);
   margin: 1rem 0;
 }
 
 .slide__content-description {
   font-size: 1.7rem;
-  color: var(--primary-color);
+  color: var(--color1);
   padding: 0.5rem 0;
   line-height: 1.6;
   margin-bottom: 2rem;
@@ -298,14 +298,14 @@ body.dark-theme {
 
 .box__title {
   font-size: 1.5rem;
-  color: var(--primary-color);
+  color: var(--color1);
   padding-top: 1rem;
   font-weight: bold;
 }
 
 .box__description {
   font-size: 1.5rem;
-  color: var(--primary-color);
+  color: var(--color1);
   padding: 1rem 0;
 }
 
@@ -368,8 +368,8 @@ body.dark-theme {
   width: 3rem;
   line-height: 3rem;
   font-size: 1.5rem;
-  color: var(--primary-color);
-  border: 0.1rem solid var(--primary-color);
+  color: var(--color1);
+  border: 0.1rem solid var(--color1);
   border-radius: 0.5rem;
   margin-top: 0.5rem;
   vertical-align: middle;
@@ -382,7 +382,7 @@ body.dark-theme {
 }
 
 .products__title {
-  color: var(--primary-color);
+  color: var(--color1);
   font-size: 1.3rem;
   display: inline-block;
   vertical-align: middle;
@@ -393,7 +393,7 @@ body.dark-theme {
 }
 
 .products__content__price {
-  color: var(--primary-color);
+  color: var(--color1);
   font-size: 1.5rem;
   font-weight: bolder;
   padding: 1rem 0;
@@ -465,7 +465,7 @@ body.dark-theme {
 
 .featured__title {
   font-size: 1.5rem;
-  color: var(--primary-color);
+  color: var(--color1);
 }
 
 .featured__star {
@@ -476,13 +476,13 @@ body.dark-theme {
 
 .featured__description {
   font-size: 1.5rem;
-  color: var(--primary-color);
+  color: var(--color1);
   padding: 1rem 0;
 }
 
 .featured__price {
   font-size: 1.5rem;
-  color: var(--primary-color);
+  color: var(--color1);
   font-weight: bolder;
 }
 
@@ -512,17 +512,17 @@ body.dark-theme {
 
 .box__name {
   font-size: 2rem;
-  color: var(--primary-color);
+  color: var(--color1);
 }
 
 .box__text {
   font-size: 1.5rem;
-  color: var(--primary-color);
+  color: var(--color1);
   padding: 1rem 0;
 }
 
 .review__stars__icon {
-  color: var(--primary-color);
+  color: var(--color1);
 }
 
 .newsletter {
@@ -540,12 +540,12 @@ body.dark-theme {
 
 .newsletter__title {
   font-size: 2rem;
-  color: var(--primary-color);
+  color: var(--color1);
 }
 
 .newsletter__description {
   font-size: 1.3rem;
-  color: var(--primary-color);
+  color: var(--color1);
   margin: 1rem auto;
 }
 
@@ -587,13 +587,13 @@ body.dark-theme {
 }
 
 .footer__box-title {
-  color: var(--primary-color);
+  color: var(--color1);
   font-size: 1.5rem;
   padding-bottom: 1.5rem;
 }
 
 .footer__box-link {
-  color: var(--primary-color);
+  color: var(--color1);
   font-size: 1.5rem;
   padding-bottom: 1.5rem;
   display: block;
@@ -606,10 +606,10 @@ body.dark-theme {
 .credit {
   text-align: center;
   width: 100%;
-  border-top: 0.1rem solid var(--primary-color);
+  border-top: 0.1rem solid var(--color1);
   font-size: 1.5rem;
   padding: 1rem 2rem;
-  color: var(--primary-color);
+  color: var(--color1);
 }
 
 .credit__company {
